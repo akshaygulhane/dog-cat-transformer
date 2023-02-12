@@ -1,15 +1,15 @@
-import { Controller, Body, Post, HttpCode } from '@nestjs/common';
-import { TransformerRequestDto } from './dto/request.dto';
+import { Controller, Req, Post, HttpCode } from '@nestjs/common';
+import { Request } from 'express';
 import { TransformerService } from './transformer.service';
 
 @Controller('/transform')
 export class TransformerController {
-  constructor(private readonly transformerService: TransformerService) {}
+  constructor(private readonly transformerService: TransformerService) { }
 
   @Post()
   @HttpCode(200)
-  transformInput(@Body() request: TransformerRequestDto) {
-    const { input } = request;
-    return this.transformerService.transformInput(input);
+  transformInput(@Req() request: Request) {
+    const { body } = request;
+    return this.transformerService.transformInput(body);
   }
 }
