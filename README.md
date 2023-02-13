@@ -40,3 +40,6 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## To Do:
+- API documentation (Created a [Draft PR](https://github.com/akshaygulhane/dog-cat-transformer/pull/2) for this)
