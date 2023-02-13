@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "84bf8c18-8709-443f-af68-09ba220a74b1",
+		"name": "Dog Cat Transformer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8208185"
+	},
+	"item": [
+		{
+			"name": "Transform",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"input\": \"test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/transform",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"transform"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
