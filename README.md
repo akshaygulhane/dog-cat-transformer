@@ -40,3 +40,7 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## To Do:
+- API documentation (Created a Draft PR for this)
+- 
