@@ -42,5 +42,4 @@ $ npm run test:cov
 ```
 
 ## To Do:
-- API documentation (Created a Draft PR for this)
-- 
+- API documentation (Created a [Draft PR](https://github.com/akshaygulhane/dog-cat-transformer/pull/2) for this)
